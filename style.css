@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/roboto.woff2");
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.header {
+    background: #e3f2fd;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    width: 250px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 20px;
+}
+
+.card > div {
+    /*width: 50%;*/
+    width: 40%;
+    flex-grow: 1;
+}
+
+.card2 {
+    flex-direction: row-reverse;
+}
+
+.illustration {
+    /*width: clamp(300px, 40vw, 50vw);*/
+    margin-left: 50px;
+    width: 50vw;
+    flex-grow: 0.5;
+}
+
+.illustration2 {
+    margin: 0 50px 0 0;
+}
+
+.learn-more {
+    background: #0060df;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.extension {
+    background: linear-gradient(45deg, wheat, red);
+    color: white;
+}
+
+.mission {
+    background: aquamarine;
+}
+
+.mission-para {
+    font-size: 32px;
+    text-align: center;
+    margin: 0;
+}
+
+.heading {
+    font-size: clamp(1rem, 5vw, 3rem);
+}
+
+.h3 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.learn-more, .links a {
+    text-decoration: none;
+}
+
+.footer {
+    background: #e3f2fd;
+    padding: 10px 0;
+}
+
+.center {
+    text-align: center;
+}
